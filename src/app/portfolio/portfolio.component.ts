@@ -1,15 +1,14 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import Typed from 'typed.js';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-portfolio',
+  templateUrl: './portfolio.component.html',
+  styleUrls: ['./portfolio.component.css']
 })
-export class AppComponent {
+export class PortfolioComponent {
 
-  
-  ngAfterViewInit() {
+   ngAfterViewInit() {
       const options = {
         strings: ['Designer', 'Developer', 'Freelancer', 'Photographer'],
         typeSpeed: 40,
@@ -19,6 +18,5 @@ export class AppComponent {
       new Typed('.typed', options);
     }
 
-
+  
 }
-
