@@ -1,0 +1,559 @@
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+/>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<body class="index-page">
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div
+      class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+    >
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">
+          PORTFOLIO <span class="highlighted-text">YM</span>
+        </h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="#hero" class="active">Acceuil<br /></a>
+          </li>
+          <li><a href="#about">A propos </a></li>
+          <li><a href="#portfolio">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="../assets/images/yassine.jpeg" alt="" data-aos="fade-in" />
+      <div
+        class="container d-flex flex-column align-items-center justify-content-center text-center"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <h2>Je Suis Yassine Moujahid</h2>
+        <p><span class="typed" style="color: #d5f6ff"></span></p>
+      </div>
+    </section>
+    <!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-md-6">
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+                <img
+                  src="../assets/images/yassine.jpeg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-7 about-info">
+                <p><strong>Nom : </strong> <span>Morgan Freeman</span></p>
+                <p>
+                  <strong>Profile: </strong> <span>full stack developer</span>
+                </p>
+                <p><strong>Email: </strong> <span>contact@example.com</span></p>
+                <p><strong>Phone: </strong> <span>(617) 557-0089</span></p>
+              </div>
+            </div>
+
+            <div class="skills-content skills-animation">
+              <h5>Skills</h5>
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>HTML</span> <i class="val">90%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    [style.width.%]="90"
+                    role="progressbar"
+                    aria-valuenow=""
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>CSS</span> <i class="val">90%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>JavaScript</span> <i class="val">75%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>Photoshop</span> <i class="val">55%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="55"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>A propos</h4>
+              <p>
+                Curabitur non nulla sit amet nisl tempus convallis quis ac
+                lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                at sem. Praesent sapien massa, convallis a pellentesque nec,
+                egestas non nisi. Nulla porttitor accumsan tincidunt.
+              </p>
+              <p>
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Vivamus suscipit tortor eget felis porttitor volutpat.
+                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+                dui. porttitor at sem.
+              </p>
+              <p>
+                Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium
+                ut lacinia in, elementum id enim. Nulla porttitor accumsan
+                tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh
+                pulvinar a.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Brandon Johnson</h4>
+              <p>
+                <em
+                  >Innovative and deadline-driven Graphic Designer with 3+ years
+                  of experience designing and developing user-centered
+                  digital/print marketing material from initial concept to
+                  final, polished deliverable.</em
+                >
+              </p>
+              <ul>
+                <li>Portland par 127,Orlando, FL</li>
+                <li>(123) 456-7891</li>
+                <li>alice.barkley@example.com</li>
+              </ul>
+            </div>
+            <!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Fine Arts &amp; Graphic Design</h4>
+              <h5>2015 - 2016</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>
+                Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam
+                iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti
+                nerada porti sand markend
+              </p>
+            </div>
+            <!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+              <h5>2010 - 2014</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>
+                Quia nobis sequi est occaecati aut. Repudiandae et iusto quae
+                reiciendis et quis Eius vel ratione eius unde vitae rerum
+                voluptates asperiores voluptatem Earum molestiae consequatur
+                neque etlon sader mart dila
+              </p>
+            </div>
+            <!-- Edn Resume Item -->
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Senior graphic design specialist</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Experion, New York, NY </em></p>
+              <ul>
+                <li>
+                  Lead in the design, development, and implementation of the
+                  graphic, layout, and production communication materials
+                </li>
+                <li>
+                  Delegate tasks to the 7 members of the design team and provide
+                  counsel on all aspects of the project.
+                </li>
+                <li>
+                  Supervise the assessment of all graphic materials in order to
+                  ensure quality and accuracy of the design
+                </li>
+                <li>
+                  Oversee the efficient use of production project budgets
+                  ranging from $2,000 - $25,000
+                </li>
+              </ul>
+            </div>
+            <!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Graphic design specialist</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <ul>
+                <li>
+                  Developed numerous marketing programs (logos,
+                  brochures,infographics, presentations, and advertisements).
+                </li>
+                <li>
+                  Managed up to 5 projects or tasks at a given time while under
+                  pressure
+                </li>
+                <li>
+                  Recommended and consulted with clients on the most appropriate
+                  graphic design
+                </li>
+                <li>
+                  Created 4+ design presentations and proposals a month for
+                  clients and account managers
+                </li>
+              </ul>
+            </div>
+            <!-- Edn Resume Item -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projets</h2>
+        <p>
+          Découvrez mes travaux, illustrant mes compétences en design,
+          développement et gestion de projets. Chaque projet reflète mon
+          engagement et ma passion pour des solutions innovantes et
+          fonctionnelles.
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div
+          class="isotope-layout"
+          data-default-filter="*"
+          data-layout="masonry"
+          data-sort="original-order"
+        >
+          <div
+            class="row gy-4 isotope-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              routerLink="/contenu-projet"
+            >
+              <div class="portfolio-content h-100">
+                <a data-gallery="portfolio-gallery-app" class="glightbox"
+                  ><img
+                    src="../assets/images/aproposhome.jpg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details">
+                      <p>Projet1</p>
+                    </a>
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+            >
+              <div class="portfolio-content h-100">
+                <a
+                  routerLink="/contenu-projet"
+                  data-gallery="portfolio-gallery-app"
+                  class="glightbox"
+                  ><img
+                    src="../assets/images/aproposhome.jpg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details"
+                      >Product 2</a
+                    >
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+            >
+              <div class="portfolio-content h-100">
+                <a
+                  href="assets/img/portfolio/branding-1.jpg"
+                  data-gallery="portfolio-gallery-app"
+                  class="glightbox"
+                  ><img
+                    src="../assets/images/aproposhome.jpg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details"
+                      >Projet 3</a
+                    >
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
+            >
+              <div class="portfolio-content h-100">
+                <a
+                  src="../assets/images/yassine.jpeg"
+                  data-gallery="portfolio-gallery-app"
+                  class="glightbox"
+                  ><img
+                    src="../assets/images/aproposhome.jpg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details"
+                      >Projet 4</a
+                    >
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+            >
+              <div class="portfolio-content h-100">
+                <a
+                  href="assets/img/portfolio/app-2.jpg"
+                  data-gallery="portfolio-gallery-app"
+                  class="glightbox"
+                  ><img
+                    src="../assets/images/aproposhome.jpg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details"
+                      >Projet 5</a
+                    >
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+            >
+              <div class="portfolio-content h-100">
+                <a
+                  href="assets/img/portfolio/product-2.jpg"
+                  data-gallery="portfolio-gallery-app"
+                  class="glightbox"
+                  ><img
+                    src="../assets/images/aproposhome.jpg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+                <div class="portfolio-info">
+                  <h4>
+                    <a href="portfolio-details.html" title="More Details"
+                      >Projet 6</a
+                    >
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Portfolio Container -->
+        </div>
+      </div>
+    </section>
+    <!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>
+          N'hésitez pas à me contacter pour toute question ou demande. Je suis
+          disponible pour échanger avec vous.
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>adress ,;;;</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Telephone</h3>
+                  <p>+212 4565435</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>yassine....@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Contact Section -->
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename"
+            >PROTFOLIO <span class="highlighted-text">YM</span></strong
+          >
+        </p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/votre-compte-github"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://linkedin.com/in/votre-profil-linkedin"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a
+    href="#"
+    id="scroll-top"
+    class="scroll-top d-flex align-items-center justify-content-center"
+    ><i class="bi bi-arrow-up-short"></i
+  ></a>
+</body>
